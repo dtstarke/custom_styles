@@ -1,0 +1,19 @@
+
+#page-desktop {
+    background-color: #999 !important;
+}
+
+
+.app-icon .inner, .app-icon i {
+	color: #333 !important;
+
+}
+
+.app-icon {
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 0 !important;
+    cursor: pointer;
+}

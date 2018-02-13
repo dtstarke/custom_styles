@@ -1,0 +1,8 @@
+
+.dropdown-help {
+	display:none !important;
+}
+
+form[role="search"] {
+    display: none;
+}

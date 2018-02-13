@@ -1,0 +1,10 @@
+{
+    "custom_styles/css/custom_styles.css": [
+        "public/css/desk.css",
+        "public/css/modules.css",
+        "public/css/header.css"
+    ],
+	"custom_styles/js/custom_styles.js": [
+		"public/js/header.js"
+	]
+}
