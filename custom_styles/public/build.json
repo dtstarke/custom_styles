@@ -6,6 +6,7 @@
         "public/css/pos.css"
     ],
 	"custom_styles/js/custom_styles.js": [
-		"public/js/header.js"
+		"public/js/header.js",
+		"public/js/pos.js"
 	]
 }

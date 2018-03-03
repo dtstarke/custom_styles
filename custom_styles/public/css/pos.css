@@ -1,1 +1,10 @@
 
+body[data-route="point-of-sale"] {
+
+	@media (min-width: 500px) {
+		.container {
+    			width: 100%;
+		}
+	}
+}
+

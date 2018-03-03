@@ -1,10 +1,5 @@
-
-/*
- *	/home/frappe/frappe-bench/apps/custom_styles/custom_styles/public/js/header.js
- */
-
-
-
+(function () {
+'use strict';
 
 $( document ).ready(function() {
 
@@ -15,3 +10,18 @@ $( document ).ready(function() {
     //custom splash 
 //    $(".splash img").atrr("src","/assets/erpnext/images/erpnext-grey.png");
 });
+
+$(document).ready(function() {
+
+	 if(window.location.href.indexOf("desk#point-of-sale") > -1) {
+		 
+		 console.log("in pos!");
+		 
+
+		 
+	 }
+
+});
+
+}());
+//# sourceMappingURL=custom_styles.js.map
