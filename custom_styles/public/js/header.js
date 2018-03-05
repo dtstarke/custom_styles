@@ -3,6 +3,8 @@
 
 
 $( document ).ready(function() {
+	
+	frappe.utils.play_sound("submit");
 
 	// Clean up header
     $(".navbar-home").html("Desk");

@@ -3,7 +3,7 @@
         "public/css/desk.css",
         "public/css/modules.css",
         "public/css/header.css",
-        "public/css/pos.css"
+        "public/less/pos.less"
     ],
 	"custom_styles/js/custom_styles.js": [
 		"public/js/header.js",
