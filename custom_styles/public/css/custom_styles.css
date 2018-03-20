@@ -1,61 +1,84 @@
+
 #page-desktop {
-  background-color: #999 !important;
+    background-color: #999 !important;
 }
-.app-icon .inner,
-.app-icon i {
-  color: #333 !important;
-  font-size: 1.3em;
+
+
+.app-icon .inner, .app-icon i {
+	color: #333 !important;
+	font-size: 1.3em;
+
 }
+
 .app-icon {
-  padding: 40px;
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-  border-radius: 0 !important;
-  cursor: pointer;
-  font-size: 3.2em;
-  box-shadow: none;
-  min-width: 100%;
+    padding: 40px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 0 !important;
+    cursor: pointer;
+    font-size:3.2em;
+    box-shadow:none;
+    min-width:100%;
 }
+
+.app-icon .inner, .app-icon i {
+  
+}
+
 #icon-grid {
-  padding-bottom: 15px !important;
+	padding-bottom:15px !important;
 }
+
 .case-label {
-  letter-spacing: 0.9px !important;
+	letter-spacing:0.9px !important;
 }
+
+
 .case-wrapper {
-  margin: 40px !important;
+    margin: 40px !important;
 }
+
 .module-body .section-head {
-  text-align: center !important;
-  font-weight: 100 !important;
-  font-size: 12px;
-  color: #fff !important;
-  background-color: #333 !important;
-  padding: 5px !important;
-  letter-spacing: 2px;
+    text-align: center !important;
+    font-weight: 100 !important;
+    font-size: 12px;
+    color: #fff !important;
+    background-color: #333 !important;
+    padding: 5px !important;
+    letter-spacing: 2px;
 }
 .dropdown-help {
-  display: none !important;
+	display:none !important;
 }
+
 form[role="search"] {
-  display: none;
+    display: none;
 }
-body[data-route="point-of-sale"] .layout-main-section {
-  border: none !important;
-  border-top: 0px;
-}
-body[data-route="point-of-sale"] .image-view-header {
-  width: 100px !important;
-  max-height: 50px !important;
-  min-height: 50px !important;
-  text-overflow: ellipsis !important;
-}
-body[data-route="point-of-sale"] .pos {
-  padding: 5px 0 0 0 !important;
-}
-@media (min-width: 500px) {
-  body[data-route="point-of-sale"] .container {
-    width: 100% !important;
-  }
+body[data-route="point-of-sale"] {
+	
+	.layout-main-section {
+    		border: none !important;
+    		border-top: 0px;
+	}
+	
+	.image-view-header {
+  		width: 100px !important;
+  		max-height: 50px !important;
+    		min-height: 50px !important;
+//  		white-space: nowrap !important;
+//  		overflow: hidden !important;
+  		text-overflow: ellipsis !important;
+	
+	}
+	
+	.pos {
+    		padding: 5px 0 0 0 !important;
+	}
+
+	@media (min-width: 500px) {
+		.container {
+    			width: 100% !important;
+		}
+	}
 }

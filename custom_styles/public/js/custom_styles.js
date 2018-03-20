@@ -1,29 +1,16 @@
-(function () {
-'use strict';
 
-$( document ).ready(function() {
-	
-	frappe.utils.play_sound("submit");
 
-	// Clean up header
-    $(".navbar-home").html("Desk");
-    
-    
-    //custom splash 
-//    $(".splash img").atrr("src","/assets/erpnext/images/erpnext-grey.png");
+$(document).ready(function () {
+
+   frappe.utils.play_sound("submit");
+
+   $(".navbar-home").html("Desk");
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-	 if(window.location.href.indexOf("desk#point-of-sale") > -1) {
-		 
-		 console.log("in pos!");
-		 
+	if (window.location.href.indexOf("desk#point-of-sale") > -1) {
 
-		 
-	 }
-
+		console.log("in pos!");
+	}
 });
-
-}());
-//# sourceMappingURL=custom_styles.js.map
