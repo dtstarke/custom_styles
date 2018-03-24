@@ -23,7 +23,7 @@ web_include_css = "/assets/custom_styles/css/web_styles.css"
 web_include_js = "/assets/custom_styles/js/web_styles.js"
 
 website_context = {
-    "favicon":     "/assets/custom_styles/images/favicon.png",
+#    "favicon":     "/assets/custom_styles/images/favicon.png",
     "splash_image": "/assets/custom_styles/images/starkapps.svg"
 }
 

@@ -1,1 +1,58 @@
-body{background-image:url(https://feddersfeed.com/assets/images/site-background/wood-bg-c2cbdb63ce325ef3c2855d487487c8cb.jpg)}.hero-and-content{background:transparent!important}header{display:none}#page-login .page-card{max-width:460px;padding:15px;margin:70px auto;border:1px solid #d1d8dd;border-radius:0!important;background-color:#fff;box-shadow:none!important}#page-login .form-control{border-radius:0!important;font-size:2em!important}#page-login .logo{display:block;text-align:center;width:400px;height:182px;margin:0 auto 30px;background:url(/assets/custom_styles/images/fedders-logo-barn.svg) no-repeat;background-size:400px 182px}#page-login .login-content .btn{font-size:1.3em!important;margin:45px 0 20px;border-radius:0!important;background-color:#34bfa3!important;border:none!important;padding:20px}.company-login{text-align:center;padding:15px 0 25px;font-size:2.3em;letter-spacing:.04em}.web-footer{display:none}.footer-powered,.footer-subscribe,.social-logins{display:none!important}
+body {
+  background-image: url("https://feddersfeed.com/assets/images/site-background/wood-bg-c2cbdb63ce325ef3c2855d487487c8cb.jpg");
+}
+.hero-and-content {
+  background: transparent !important;
+}
+header {
+  display: none;
+}
+#page-login .page-card {
+  max-width: 460px;
+  padding: 15px;
+  margin: 70px auto;
+  border: 1px solid #d1d8dd;
+  border-radius: 0 !important;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+#page-login .form-control {
+  border-radius: 0 !important;
+  font-size: 2em !important;
+}
+#page-login .logo {
+  display: block;
+  text-align: center;
+  width: 400px;
+  height: 182px;
+  margin: 0 auto 30px auto;
+  background: url(/assets/custom_styles/images/fedders-logo-barn.svg) no-repeat;
+  background-size: 400px 182px;
+}
+#page-login .login-content .btn {
+  font-size: 1.3em !important;
+  margin: 45px 0 20px 0;
+  border-radius: 0 !important;
+  background-color: #34bfa3 !important;
+  border: none !important;
+  padding: 20px;
+}
+/* end page-login */
+.company-login {
+  text-align: center;
+  padding: 15px 0 25px 0;
+  font-size: 2.3em;
+  letter-spacing: .04em;
+}
+.web-footer {
+  display: none;
+}
+.social-logins {
+  display: none !important;
+}
+.footer-powered {
+  display: none !important;
+}
+.footer-subscribe {
+  display: none !important;
+}
