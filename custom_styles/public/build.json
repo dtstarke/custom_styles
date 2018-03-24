@@ -1,8 +1,11 @@
 {
     "custom_styles/css/custom_styles.css": [
-        "public/css/desk.css",
-        "public/css/modules.css",
-        "public/css/header.css",
+        "public/less/header.less",
+        "public/less/desk.less",
+        "public/less/modules.less",
+        "public/less/inputs.less",
+        "public/less/buttons.less",
+        "public/less/datatables.less",
         "public/less/pos.less"
     ],
 	"custom_styles/js/custom_styles.js": [
