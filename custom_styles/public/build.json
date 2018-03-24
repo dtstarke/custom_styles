@@ -2,6 +2,7 @@
     "custom_styles/css/custom_styles.css": [
         "public/less/header.less",
         "public/less/desk.less",
+        "public/less/page.less",
         "public/less/modules.less",
         "public/less/inputs.less",
         "public/less/buttons.less",

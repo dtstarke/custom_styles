@@ -73,6 +73,13 @@ header form[role="search"] {
   letter-spacing: 2px;
 }
 
+.page-form {
+  background-color: #eee !important;
+}
+.form-inner-toolbar {
+  background-color: #eee !important;
+}
+
 .module-body .section-head {
   margin-bottom: 15px;
   margin-top: 0px;
@@ -140,6 +147,10 @@ header form[role="search"] {
   line-height: 1.5;
   border-radius: 0;
 }
+.form-inner-toolbar .btn-default {
+  background-color: #D3D3D3 !important;
+  padding: 5px 25px;
+}
 
 .form-grid {
   border-radius: 0px;
@@ -168,6 +179,13 @@ body[data-route="point-of-sale"] .image-view-header {
 }
 body[data-route="point-of-sale"] .pos {
   padding: 5px 0 0 0 !important;
+}
+body[data-route="point-of-sale"] .list-item--head {
+  background-color: #eee;
+}
+body[data-route="point-of-sale"] .num-col.brand-primary {
+  background-color: #34bfa3 !important;
+  color: #ffffff;
 }
 @media (min-width: 500px) {
   body[data-route="point-of-sale"] .container {

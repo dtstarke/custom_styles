@@ -22,6 +22,12 @@ app_include_js = "/assets/custom_styles/js/custom_styles.js"
 # web_include_css = "/assets/custom_styles/css/custom_styles.css"
 # web_include_js = "/assets/custom_styles/js/custom_styles.js"
 
+website_context = {
+    "favicon":     "/assets/custom_styles/images/favicon.png",
+    "splash_image": "/assets/custom_styles/images/starkapps.svg"
+}
+
+
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
