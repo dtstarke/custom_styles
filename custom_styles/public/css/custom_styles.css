@@ -33,6 +33,12 @@ header form[role="search"] {
 header li.user-progress .progress {
   display: none !important;
 }
+header .avatar-small {
+  display: none;
+}
+header .navbar-new-comments {
+  border-radius: 0 !important;
+}
 
 #page-desktop {
   background-color: #999 !important;
@@ -79,6 +85,12 @@ header li.user-progress .progress {
 /* Default to one column, hide first column on load */
 .layout-side-section {
   display: none;
+}
+.page-container {
+  background-color: #F8F8F8;
+}
+.layout-main-section {
+  background-color: #fff;
 }
 .page-form {
   background-color: #eee !important;
