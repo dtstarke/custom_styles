@@ -19,8 +19,8 @@ app_include_css = "/assets/custom_styles/css/custom_styles.css"
 app_include_js = "/assets/custom_styles/js/custom_styles.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/custom_styles/css/custom_styles.css"
-# web_include_js = "/assets/custom_styles/js/custom_styles.js"
+web_include_css = "/assets/custom_styles/css/web_styles.css"
+web_include_js = "/assets/custom_styles/js/web_styles.js"
 
 website_context = {
     "favicon":     "/assets/custom_styles/images/favicon.png",

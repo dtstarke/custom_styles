@@ -28,7 +28,10 @@ header .dropdown-help {
   display: none !important;
 }
 header form[role="search"] {
-  display: none;
+  display: none !important;
+}
+header li.user-progress .progress {
+  display: none !important;
 }
 
 #page-desktop {
@@ -51,7 +54,7 @@ header form[role="search"] {
   min-width: 100%;
 }
 #page-desktop #icon-grid {
-  padding-bottom: 15px !important;
+  padding-top: 0 !important;
 }
 #page-desktop .case-label-text {
   letter-spacing: 0.08em !important;
@@ -78,6 +81,27 @@ header form[role="search"] {
 }
 .form-inner-toolbar {
   background-color: #eee !important;
+}
+.timeline-head .comment-input-header {
+  background-color: #eee !important;
+  padding: 20px 15px !important;
+}
+a.badge-link.small {
+  width: 80px !important;
+  display: inline-block !important;
+}
+.form-links .count {
+  width: 30px !important;
+  text-align: right;
+}
+.editable-title .title-text {
+  padding: 0 15px;
+}
+.editable-title .title-text:hover {
+  background-color: #E8E8E8;
+}
+.form-sidebar .sidebar-image-section .standard-image {
+  border-radius: 0 !important;
 }
 
 .module-body .section-head {
@@ -147,7 +171,8 @@ header form[role="search"] {
   line-height: 1.5;
   border-radius: 0;
 }
-.form-inner-toolbar .btn-default {
+.form-inner-toolbar .btn-default,
+.btn-comment {
   background-color: #D3D3D3 !important;
   padding: 5px 25px;
 }
