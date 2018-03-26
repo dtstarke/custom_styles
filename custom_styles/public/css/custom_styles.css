@@ -10,7 +10,7 @@ header .navbar-default .navbar-brand {
 }
 header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-brand:hover {
-  color: #fd7e14 !important;
+  color: #3498db !important;
   letter-spacing: .04em;
 }
 header .navbar-default .navbar-nav > .open > a,
@@ -18,6 +18,14 @@ header .navbar-default .navbar-nav > .open > a:hover,
 header .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
   background-color: #555 !important;
+}
+header #header-clock {
+  color: #fff;
+  margin: 11px 0 0 0;
+  letter-spacing: .04em;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
 }
 header .dropdown-menu a:hover {
   border-bottom: none;
@@ -41,7 +49,7 @@ header .navbar-new-comments {
 }
 
 #page-desktop {
-  background-color: #999 !important;
+  background-color: #333 !important;
 }
 #page-desktop .app-icon .inner,
 #page-desktop .app-icon i {
@@ -120,6 +128,10 @@ a.badge-link.small {
   border-radius: 0 !important;
 }
 
+.layout-side-section .nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #ddd;
+}
 .module-body .section-head {
   margin-bottom: 15px;
   margin-top: 0px;
@@ -161,12 +173,16 @@ a.badge-link.small {
 }
 .like-disabled-input {
   border-radius: 0;
+  background-color: #eee;
 }
 .awesomplete > ul > li .link-option {
   font-weight: normal;
   color: #000;
 }
 
+.nav-pills > li > a {
+  border-radius: 0 !important;
+}
 .btn-primary {
   background-color: #34bfa3;
   border: none;
@@ -178,6 +194,11 @@ a.badge-link.small {
 .btn-sm,
 .btn-group-sm > .btn {
   border-radius: 0px;
+}
+.page-head .btn-sm {
+  padding: 3px 20px !important;
+  line-height: 1.5;
+  font-size: 1.5em;
 }
 .btn-xs,
 .btn-group-xs > .btn {
