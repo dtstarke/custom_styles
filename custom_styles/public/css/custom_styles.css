@@ -30,7 +30,7 @@ header #header-clock {
 header .dropdown-menu a:hover {
   border-bottom: none;
   color: #fff !important;
-  background-color: #333 !important;
+  background-color: #666 !important;
 }
 header .dropdown-help {
   display: none !important;
@@ -111,7 +111,7 @@ header .navbar-new-comments {
   padding: 20px 15px !important;
 }
 a.badge-link.small {
-  width: 80px !important;
+  width: 150px !important;
   display: inline-block !important;
 }
 .form-links .count {
@@ -126,6 +126,16 @@ a.badge-link.small {
 }
 .form-sidebar .sidebar-image-section .standard-image {
   border-radius: 0 !important;
+}
+.file-upload .uploaded-filename {
+  border-radius: 0 !important;
+}
+.progress {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.progress-bar {
+  background-color: #34bfa3 !important;
 }
 
 .layout-side-section .nav > li > a:hover,
@@ -191,6 +201,14 @@ a.badge-link.small {
 .btn-primary:hover {
   background-color: #299781;
 }
+.btn-default {
+  border: none;
+  padding: 10px 30px;
+  background-color: #eee !important;
+}
+.btn-default:hover {
+  background-color: #d5d5d5 !important;
+}
 .btn-sm,
 .btn-group-sm > .btn {
   border-radius: 0px;
@@ -208,14 +226,26 @@ a.badge-link.small {
   line-height: 1.5;
   border-radius: 0;
 }
+.btn-xs {
+  margin-right: 0 !important;
+}
 .form-inner-toolbar .btn-default,
 .btn-comment {
   background-color: #D3D3D3 !important;
   padding: 5px 25px;
 }
 
+.list-row-head.text-muted {
+  color: #333 !important;
+}
 .form-grid {
   border-radius: 0px;
+}
+.data-table .data-table-header {
+  background-color: #F5F5F5 !important;
+  color: #000 !important;
+  font-weight: 400;
+  font-size: 1em;
 }
 .editable-form .grid-static-col.bold {
   background-color: #F8F8F8;
@@ -228,6 +258,16 @@ a.badge-link.small {
 .row-index {
   text-align: center;
 }
+
+.modal-body .web-link-wrapper {
+  display: none !important;
+}
+
+.list-row-head,
+.list-item--head {
+  background-color: #eee !important;
+}
+
 
 body[data-route="point-of-sale"] .layout-main-section {
   border: none !important;

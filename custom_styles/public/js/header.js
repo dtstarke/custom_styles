@@ -16,7 +16,8 @@ $(document).ready(function() {
         var leftCol = $(".layout-side-section");
         var rightCol = $(".layout-main-section-wrapper");
         
-        if (winLoc.indexOf("desk#modules") >= 0) {
+        if (winLoc.indexOf("desk#modules") >= 0 ||
+            winLoc.indexOf("desk#Form/Item") >= 0) {
             console.log("We are at the Module Screen! " + $.now());          
             
             rightCol.removeClass("col-md-12");

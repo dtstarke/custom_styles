@@ -3,6 +3,9 @@
 @green-button:        #34bfa3;
 @green-button-hover:  darken(@green-button, 10%);
 
+@default-button: 	  #eee;
+@default-button-hover: darken(@default-button, 10%);
+
 .nav-pills > li > a {
     border-radius: 0 !important;
 }
@@ -15,6 +18,16 @@
 
 .btn-primary:hover {
 	background-color:@green-button-hover;
+}
+
+.btn-default {
+	border:none;
+	padding:10px 30px;
+	background-color:#eee !important;
+}
+
+.btn-default:hover {
+	background-color: @default-button-hover !important;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -36,6 +49,9 @@
     border-radius: 0;
 }
 
+.btn-xs {
+	margin-right:0 !important;
+}
 
 
 .form-inner-toolbar .btn-default, .btn-comment {

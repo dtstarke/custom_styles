@@ -18,7 +18,8 @@ $(document).ready(function() {
         var leftCol = $(".layout-side-section");
         var rightCol = $(".layout-main-section-wrapper");
         
-        if (winLoc.indexOf("desk#modules") >= 0) {
+        if (winLoc.indexOf("desk#modules") >= 0 ||
+            winLoc.indexOf("desk#Form/Item") >= 0) {
             console.log("We are at the Module Screen! " + $.now());          
             
             rightCol.removeClass("col-md-12");
@@ -36,6 +37,26 @@ $(document).ready(function() {
                 
     }, 500); 
 });
+
+//$(document).ready(function() {
+    
+//    var winLoc = window.location.href;
+//    if (winLoc.indexOf("desk#point-of-sale") >= 0) {
+//      var posPath = $('body [data-route="point-of-sale"]');
+//      if (posPath.length >= 0) {
+
+//  var winLoc = window.location.href;
+//  if (winLoc.indexOf("desk#point-of-sale") >= 0) {
+//    
+//    setInterval(function(){
+//
+//            $('.number-pad-container').hide();
+//            console.log("pos");
+//        }, 500);
+//    }
+//    
+//    
+//});
 
 }());
 //# sourceMappingURL=custom_styles.js.map

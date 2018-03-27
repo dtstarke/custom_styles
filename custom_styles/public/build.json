@@ -7,19 +7,14 @@
         "public/less/inputs.less",
         "public/less/buttons.less",
         "public/less/datatables.less",
+        "public/less/modal.less",
+        "public/less/list.less",
+        "public/less/fa-override.less",
         "public/less/pos.less"
     ],
-    
-	"custom_styles/css/web_styles.css": [
-		"public/less/login.less"
-	],
     
 	"custom_styles/js/custom_styles.js": [
 		"public/js/header.js",
 		"public/js/pos.js"
-	],
-    
-	"custom_styles/js/web_styles.js": [
-		"public/js/login.js"
 	]
 }
