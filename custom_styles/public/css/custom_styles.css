@@ -267,6 +267,9 @@ a.badge-link.small {
 .list-item--head {
   background-color: #eee !important;
 }
+.list-item-table {
+  border-radius: 0 !important;
+}
 
 
 body[data-route="point-of-sale"] .layout-main-section {
@@ -284,6 +287,9 @@ body[data-route="point-of-sale"] .pos {
 }
 body[data-route="point-of-sale"] .list-item--head {
   background-color: #eee;
+}
+body[data-route="point-of-sale"] .list-item__content.text-muted {
+  color: #000 !important;
 }
 body[data-route="point-of-sale"] .num-col.brand-primary {
   background-color: #34bfa3 !important;
