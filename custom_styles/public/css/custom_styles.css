@@ -265,12 +265,22 @@ a.badge-link.small {
 .active-tag-filters .btn.remove-filter {
   padding: 3px 13px;
 }
+.active-tag-filters .btn.remove-filter:hover {
+  background-color: #dc3545 !important;
+}
+.active-tag-filters .btn.remove-filter:hover i {
+  color: #000 !important;
+}
 .list-paging-area .btn.btn-paging.btn-info {
   color: #34bfa3 !important;
 }
 .form-inner-toolbar .btn-default,
+.form-inner-toolbar .btn-primary,
 .btn-comment {
   padding: 5px 25px;
+}
+.no-result .msg-box .btn-new-doc {
+  padding: 10px 25px !important;
 }
 
 .list-row-head.text-muted {
