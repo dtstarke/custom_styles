@@ -11,7 +11,7 @@
 }
 
 .btn-primary {
-	background-color: @green-button;
+	background-color: @green-button !important;
 	border:0 !important;
 }
 
@@ -63,10 +63,24 @@
 	background-color:#ccc !important;
 }
 
+.dashboard-list-item .btn-default {
+	background-color: #ccc !important;
+	padding:4px 12px !important;
+}
+
+.dashboard-list-item .btn-default:hover {
+	background-color: #ddd !important;
+}
+
+.grid-footer .grid-buttons .grid-add-row {
+	padding:4px 12px !important;
+}
+
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus,
 .awesomplete > ul > li:hover {
 	background-color:#ccc !important;
+	color:#000 !important;
 }
 
 .awesomplete > ul > li[aria-selected=true] {
@@ -77,6 +91,16 @@
 
 .filter-list button.add-filter {
 	padding:5px 15px;	
+}
+
+.tag-filters-area .btn {
+	color: #666 !important;
+}
+
+input::-webkit-input-placeholder{
+    color:#ccc !important;
+    font-weight:500;
+    letter-spacing:.08em;
 }
 
 .active-tag-filters .btn.toggle-filter, 
@@ -94,13 +118,21 @@
 
 .list-paging-area .btn.btn-paging.btn-info {
 	color:@green-button !important;
+	font-weight:500 !important;
 }
 
 
 .form-inner-toolbar .btn-default,
 .form-inner-toolbar .btn-primary, .btn-comment {
-	
 	padding:5px 25px;
+}
+
+.comment-input-header .btn-comment {
+	background-color:#ccc !important;
+}
+
+.comment-input-header .btn-comment:hover {
+	background-color:#ddd !important;
 }
 
 .no-result .msg-box .btn-new-doc {

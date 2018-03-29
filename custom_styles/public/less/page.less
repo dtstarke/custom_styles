@@ -1,6 +1,27 @@
 
 /* Default to one column, hide first column on load */
 
+#alert-container .desk-alert {
+    -webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px 10px 20px;
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 200px;
+    background-color: #333;
+    border: 1px solid #d1d8dd;
+    overflow-y: auto;
+    position: relative;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0 !important;
+}
+
 .layout-side-section {
 	display:none;
 }
@@ -11,6 +32,33 @@
 
 .layout-main-section {
   background-color: #fff;
+}
+
+.indicator::before, .indicator-right::after {
+	border-radius: 0 !important;
+}
+
+.indicator::before, .indicator-right::after {
+	height: 11px !important;
+	width: 11px !important;
+}
+
+.indicator.blue::before, .indicator-right.blue::after {
+    background: #28a745 !important;
+}
+
+.indicator.grey::before, .indicator-right.grey::after {
+    background: #D3D3D3 !important;
+}
+
+
+.indicator.red[data-filter="docstatus,=,0"]::before, 
+.indicator-right.red[data-filter="docstatus,=,0"]::after {
+	background-color:#f5d800 !important;
+}
+
+.open-notification {
+	border-radius:0 !important;
 }
 
 .page-form {
@@ -34,6 +82,24 @@ a.badge-link.small {
 .form-links .count {
 	width:30px !important;
 	text-align:right;
+}
+
+.dashboard-list-item {
+    background-color: #eee !important;
+    padding: 15px 10px;
+}
+
+
+.inline-graph .inline-graph-half .inline-graph-bar-inner.dark {
+    background-color: #34bfa3 !important;
+}
+
+.inline-graph .inline-graph-half .inline-graph-bar-inner {
+    display: block;
+    float: left;
+    background-color: red;
+    height: 15px;
+ 	border-radius: 0 !important;
 }
 
 
