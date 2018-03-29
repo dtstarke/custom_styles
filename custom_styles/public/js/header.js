@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+        
     // Clean up header
     $(".navbar-home").html("Home");
     // Add clock

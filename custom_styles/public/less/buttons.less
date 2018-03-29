@@ -12,17 +12,24 @@
 
 .btn-primary {
 	background-color: @green-button;
-	border:none;
-	padding:10px 30px;
+	border:0 !important;
 }
 
 .btn-primary:hover {
-	background-color:@green-button-hover;
+	background-color:@green-button-hover !important;
+}
+
+.btn-primary:active {
+	background-color:@green-button-hover !important;
+}
+
+.btn-primary:focus {
+	background-color:@green-button-hover !important;
+	border:0 !important;
 }
 
 .btn-default {
 	border:none;
-	padding:10px 30px;
 	background-color:#eee !important;
 }
 
@@ -34,27 +41,55 @@
 	border-radius:0px;
 }
 
+.btn-xs, .btn-group-xs > .btn {
+    border-radius: 0;
+}
+
+.page-actions {
+    padding-top: 11px !important;
+	padding-bottom: 17px !important;
+}
+
 .page-head .btn-sm {
-	padding: 3px 20px !important;
     line-height: 1.5;
     font-size: 1.5em;
 }
 
-
-.btn-xs, .btn-group-xs > .btn {
-    padding: 3px 8px;
-    margin-right:25px !important;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 0;
+.page-actions .btn {
+	padding:8px 30px;	
 }
 
-.btn-xs {
-	margin-right:0 !important;
+.form-inner-toolbar .btn.btn-default {
+	background-color:#ccc !important;
+}
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.awesomplete > ul > li:hover {
+	background-color:#ccc !important;
+}
+
+.awesomplete > ul > li[aria-selected=true] {
+	background-color:#eee !important;
+}
+
+
+
+.filter-list button.add-filter {
+	padding:5px 15px;	
+}
+
+.active-tag-filters .btn.toggle-filter, 
+.active-tag-filters .btn.remove-filter {
+	padding:3px 13px;
+}
+
+.list-paging-area .btn.btn-paging.btn-info {
+	color:@green-button !important;
 }
 
 
 .form-inner-toolbar .btn-default, .btn-comment {
-	background-color: #D3D3D3 !important;
+	
 	padding:5px 25px;
 }
