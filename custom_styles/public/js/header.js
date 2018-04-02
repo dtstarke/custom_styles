@@ -1,22 +1,23 @@
 
 $(document).ready(function() {
+    
+    $('#page-desktop #icon-grid .case-wrapper').wrapAll('<div id="icon-wrap">');
         
     // Clean up header
     $(".navbar-home").html("Home");
 
     
-    // hack to make all pages 12 columns except for the modules page.
-    // & Set time for header.
-    
     function isMobileDevice() {
         return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
     };
-    
-    if !(isMobileDevice()) {
+
+    if (!isMobileDevice()) {
+        // confirming...
+        console.log("it's NOT mobile");
             // Add clock
             $('.navbar-right').append('<li id="header-clock" class="hidden-xs hidden-sm"></div>');
         
-            setInterval(function(){
+            setInterval(function() {
                 
                 var timeNow = moment().format('h:mm a');
                 $('#header-clock').html(timeNow);
@@ -42,7 +43,9 @@ $(document).ready(function() {
                     rightCol.addClass("col-md-12");
                 }
                         
-            }, 500);  
-        
-        } 
+            }, 500);
+    } else {
+        //confirming...
+        alert("YES, it's mobile!");
+    }
 });
